@@ -1,9 +1,9 @@
 
-# ☀️ BoonCheery: A Positive Social Media Platform
+# ☀️ booncheery: A Positive Social Media Platform
 
 ## Table of Contents
 
-1.  [About BoonCheery](#about-booncheery)
+1.  [About booncheery](#about-booncheery)
 2.  [Features](#features)
 3.  [Color Palette](#color-palette)
 4.  [Technology Stack](#technology-stack)
@@ -17,7 +17,7 @@
 
 ## 1. About BoonCheery
 
-BoonCheery is a Flask-based micro-social network dedicated exclusively to sharing positive and uplifting content. In a world saturated with negativity, BoonCheery filters out sad, angry, or pessimistic posts, ensuring a feed that only brings joy and optimism to its users.
+booncheery is a Flask-based micro-social network dedicated exclusively to sharing positive and uplifting content. In a world saturated with negativity, booncheery filters out sad, angry, or pessimistic posts, ensuring a feed that only brings joy and optimism to its users.
 
 The core principle is simple: **If it doesn't bring a smile, it doesn't get posted.**
 
@@ -37,7 +37,7 @@ The core principle is simple: **If it doesn't bring a smile, it doesn't get post
 
 ## 3. Color Palette
 
-BoonCheery uses a cheerful and optimistic palette:
+booncheery uses a cheerful and optimistic palette:
 
 | Color Name | Hex Code | Usage |
 | :--- | :--- | :--- |
@@ -132,7 +132,7 @@ The application uses an SQLite database (`booncheery.db`) with the following tab
 
 ## 7. Security and Sentiment Filtering
 
-BoonCheery enforces positivity using:
+booncheery enforces positivity using:
 
 * **Sentiment Analysis:** The `create_post` route utilizes `TextBlob` to check if the post's polarity is `>= -0.1` (neutral or positive) before allowing submission.
 * **CSRF Protection:** Implemented using `Flask-WTF` to secure all POST requests.
