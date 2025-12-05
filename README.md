@@ -15,7 +15,7 @@
 
 ---
 
-## 1. About BoonCheery
+## 1. About booncheery
 
 booncheery is a Flask-based micro-social network dedicated exclusively to sharing positive and uplifting content. In a world saturated with negativity, booncheery filters out sad, angry, or pessimistic posts, ensuring a feed that only brings joy and optimism to its users.
 
